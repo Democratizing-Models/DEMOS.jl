@@ -11,6 +11,8 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/DemocratizingModels/DEMOS.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square)](#contributors)
 [![BestieTemplate](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/JuliaBesties/BestieTemplate.jl/main/docs/src/assets/badge.json)](https://github.com/JuliaBesties/BestieTemplate.jl)
 
+This repository is not yet in its final place and will be moved later.
+
 ## How to Cite
 
 If you use DEMOS.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/DemocratizingModels/DEMOS.jl/blob/main/CITATION.cff).
@@ -31,3 +33,7 @@ If you want to make contributions of any kind, please first that a look into our
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Acknowledgements and Funding
+
+This work is funded by Germany’s Federal Ministry of Research, Technology and Space (BMFTR) as a part of the grant for the DEMOS project.
