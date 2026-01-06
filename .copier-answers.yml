@@ -1,0 +1,42 @@
+# Changes here will be overwritten by Copier
+AddAllcontributors: true
+AddCitationCFF: true
+AddCodeOfConduct: true
+AddContributionDocs: true
+AddCopierCI: false
+AddDocs: true
+AddDocsCI: true
+AddFormatterAndLinterConfigFiles: true
+AddGitHubPRTemplate: false
+AddGitHubTemplates: false
+AddLintCI: true
+AddLychee: true
+AddMacToCI: false
+AddPrecommit: true
+AddPrecommitUpdateCI: true
+AddTagBotCI: true
+AddTestCI: true
+AddWinToCI: false
+Authors: Anton Reinhard <a.reinhard@hzdr.de>
+CheckExplicitImports: true
+CodeOfConductContact: a.reinhard@hzdr.de
+ConfigIndentation: 2
+ExplicitImportsChecklist: exclude_all_qualified_accesses_are_public
+GitHubActionVersionAutoUpdate: dependabot
+JuliaCompatAutoUpdate: compathelper
+JuliaIndentation: 4
+JuliaMinCIVersion: lts
+JuliaMinVersion: '1.10'
+License: MIT
+LicenseCopyrightHolders: Anton Reinhard
+MarkdownIndentation: 2
+PackageName: DEMOS
+PackageOwner: DemocratizingModels
+PackageUUID: b68c8a41-8c86-529e-8b79-0a5f88ad90a1
+RunJuliaNightlyOnCI: true
+StrategyConfirmIncluded: true
+StrategyLevel: 3
+StrategyReviewExcluded: true
+TestingStrategy: testitem_cli
+UseCirrusCI: false
+_src_path: /home/antonr/.julia/packages/BestieTemplate/Jl0RV
