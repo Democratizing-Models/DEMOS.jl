@@ -1,11 +1,12 @@
 name: Lint
 
+# disabled while the repository is not moved
 on:
   push:
     branches:
-      - main
-    tags: ["*"]
-  pull_request:
+      - main_disabled
+#    tags: ["*"]
+#  pull_request:
 
 concurrency:
   # Skip intermediate builds: always.
