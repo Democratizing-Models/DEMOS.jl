@@ -1,0 +1,10 @@
+name = "DEMOS"
+uuid = "b68c8a41-8c86-529e-8b79-0a5f88ad90a1"
+authors = ["Anton Reinhard <a.reinhard@hzdr.de>"]
+version = "0.1.0"
+
+[workspace]
+projects = ["test", "docs"]
+
+[compat]
+julia = "1.10"
