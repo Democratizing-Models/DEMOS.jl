@@ -9,18 +9,18 @@ end
     end
 end
 
-@testitem "Basic functionality test" tags=[:unit, :fast] setup=[SharedData] begin
+@testitem "Basic functionality test" tags = [:unit, :fast] setup = [SharedData] begin
     result = DEMOS.hello_world()
     @test result == expected_output
     @test isa(result, String)
 end
 
-@testitem "Input validation test" tags=[:unit, :validation] setup=[CommonHelpers] begin
+@testitem "Input validation test" tags = [:unit, :validation] setup = [CommonHelpers] begin
     result = DEMOS.hello_world()
     @test CommonHelpers.is_valid_string(result)
 end
 
-@testitem "Performance test" tags=[:integration, :slow] begin
+@testitem "Performance test" tags = [:integration, :slow] begin
     # Test that function executes quickly
     result = @timed DEMOS.hello_world()
     @test result.time < 0.001  # Should complete in less than 1ms
