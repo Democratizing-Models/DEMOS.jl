@@ -4,7 +4,7 @@ CurrentModule = DEMOS
 
 # DEMOS
 
-Documentation for [DEMOS](https://github.com/DemocratizingModels/DEMOS.jl).
+Documentation for [DEMOS](https://github.com/Democratizing-Models/DEMOS.jl).
 
 ## Contributors
 

@@ -61,10 +61,10 @@ end
 makedocs(;
     modules = [DEMOS],
     authors = "Anton Reinhard <a.reinhard@hzdr.de>",
-    repo = "https://github.com/DemocratizingModels/DEMOS.jl/blob/{commit}{path}#{line}",
+    repo = "https://github.com/Democratizing-Models/DEMOS.jl/blob/{commit}{path}#{line}",
     sitename = "DEMOS.jl",
-    format = Documenter.HTML(; canonical = "https://DemocratizingModels.github.io/DEMOS.jl"),
+    format = Documenter.HTML(; canonical = "https://Democratizing-Models.github.io/DEMOS.jl"),
     pages = list_pages(),
 )
 
-deploydocs(; repo = "github.com/DemocratizingModels/DEMOS.jl")
+deploydocs(; repo = "github.com/Democratizing-Models/DEMOS.jl")

@@ -3,7 +3,7 @@ exclude = [
   "@cite",
   "^https://github.com/.*/releases/tag/v.*$",
   "^https://doi.org/FIXME$",
-  "^https://DemocratizingModels.github.io/DEMOS.jl/stable$",
+  "^https://Democratizing-Models.github.io/DEMOS.jl/stable$",
   "zenodo.org/badge/DOI/FIXME$"
 ]
 
