@@ -1,6 +1,6 @@
 # DEMOS
 
-[![Stable Documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://Democratizing-Models.github.io/DEMOS.jl/stable)
+[![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://Democratizing-Models.github.io/DEMOS.jl/dev)
 [![Test workflow status](https://github.com/Democratizing-Models/DEMOS.jl/actions/workflows/Test.yml/badge.svg?branch=main)](https://github.com/Democratizing-Models/DEMOS.jl/actions/workflows/Test.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/Democratizing-Models/DEMOS.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/Democratizing-Models/DEMOS.jl)
 [![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME)
