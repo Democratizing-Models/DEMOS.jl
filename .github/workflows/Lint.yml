@@ -1,6 +1,5 @@
 name: Lint
 
-# disabled while the repository is not moved
 on:
   push:
     branches:
