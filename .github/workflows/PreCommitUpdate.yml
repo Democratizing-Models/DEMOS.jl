@@ -36,12 +36,14 @@ jobs:
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          commit-message: "chore: :robot: pre-commit update"
+          commit-message: "chore: pre-commit update"
           title: "[AUTO] pre-commit update"
           branch: auto-pre-commit-update
           delete-branch: true
-          labels: chore
+          token: PRECOMMIT_UPDATER_KEY
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
