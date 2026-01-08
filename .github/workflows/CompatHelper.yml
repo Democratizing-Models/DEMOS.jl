@@ -13,6 +13,10 @@ permissions:
 jobs:
   CompatHelper:
     runs-on: ubuntu-latest
+
+    # Shouldn't run when the PR comes from a fork
+    if: ${{ !github.event.pull_request.head.repo.fork }}
+
     steps:
       - name: Check if Julia is already available in the PATH
         id: julia_in_path

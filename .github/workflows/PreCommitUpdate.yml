@@ -12,6 +12,10 @@ permissions:
 jobs:
   pre-commit-update:
     runs-on: ubuntu-latest
+
+    # Shouldn't run when the PR comes from a fork
+    if: ${{ !github.event.pull_request.head.repo.fork }}
+
     steps:
       - uses: actions/checkout@v6
       - name: Hack for setup-python cache # https://github.com/actions/setup-python/issues/807
