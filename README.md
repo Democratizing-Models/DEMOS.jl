@@ -6,8 +6,6 @@
 [![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME)
 [![All Contributors](https://img.shields.io/github/all-contributors/Democratizing-Models/DEMOS.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square)](#contributors)
 
-This repository is not yet in its final place and will be moved later. This means many links to docs etc. don't currently work.
-
 ## How to Cite
 
 If you use DEMOS.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/Democratizing-Models/DEMOS.jl/blob/main/CITATION.cff).

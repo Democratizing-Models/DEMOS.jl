@@ -37,9 +37,11 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: "chore: :robot: pre-commit update"
+          commit-message: "chore: pre-commit update"
           title: "[AUTO] pre-commit update"
+          body: "Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action; Please update this PR in some way to trigger workflows"
           branch: auto-pre-commit-update
+          reviewers: AntonReinhard
           delete-branch: true
           labels: chore
       - name: Check outputs
